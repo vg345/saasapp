@@ -21,7 +21,7 @@ gem 'jbuilder', '2.5.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '3.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '3.1.7'
+gem 'bcrypt', '3.1.12'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -33,6 +33,9 @@ gem 'font-awesome-sass', '4.6.2'
 
 # Use Hirb gem for better console data presentation
 gem 'hirb', '0.7.3'
+
+# Use Devise for user authentication
+gem 'devise', '4.2.0'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
@@ -47,8 +50,8 @@ group :development do
   gem 'web-console'
   gem 'listen', '3.0.5'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
-  gem 'spring-watcher-listen', '2.0.0'
+  # gem 'spring'
+  # gem 'spring-watcher-listen', '2.0.0'
 end
 
 
