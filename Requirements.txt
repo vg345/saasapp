@@ -1,0 +1,5 @@
+Memberships
+* User should see link for Basic plan on homepage
+* User should see link for Pro plan on homepage
+* Basic plan link should take user directly to sign-up form.
+* Pro plan link should point user to custom sign up form.
