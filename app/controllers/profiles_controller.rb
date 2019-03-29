@@ -1,4 +1,5 @@
 class ProfilesController < ApplicationController
+  before_action :authenticate_user!
   
   # GET request to /users/:user_id/profile/new
   def new
